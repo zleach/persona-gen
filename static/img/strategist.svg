@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+<g id="XMLID_659_">
+	<g id="XMLID_175_">
+		<circle id="XMLID_3388_" fill="#F7E1E8" cx="60" cy="60.5" r="59"/>
+		
+			<path id="XMLID_3386_" fill="none" stroke="#454B50" stroke-width="4.9271" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M52.9,29.2c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7s3.9-8.7,8.7-8.7c2.4,0,4.6,1,6.1,2.5C51.9,24.6,52.9,26.8,52.9,29.2z"/>
+		<g id="XMLID_2963_">
+			
+				<line id="XMLID_3385_" fill="none" stroke="#454B50" stroke-width="4.9271" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="71.5" y1="82.1" x2="89" y2="99.6"/>
+			
+				<line id="XMLID_3384_" fill="none" stroke="#454B50" stroke-width="4.9271" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="89" y1="82.1" x2="71.5" y2="99.6"/>
+		</g>
+		<g id="XMLID_1223_">
+			<g id="XMLID_1224_">
+				<defs>
+					<path id="XMLID_1225_" d="M106,21.3l-13-13c-1.8-1.8-4.6-1.8-6.4-0.1L72.3,21.8c-1.8,1.7-2.1,4.6-0.5,6.4
+						c0.9,1.1,2.2,1.6,3.5,1.6c1.1,0,2.3-0.4,3.2-1.3l5.1-4.8v26.9c0,3.1-2.5,5.6-5.6,5.6h-28c-7.8,0-14.2,6.4-14.2,14.2l0,32
+						c0,2.7,1.9,5.2,4.5,5.8c3.7,0.7,6.9-2.1,6.9-5.6V73.3c0-3,2.4-5.4,5.4-5.4h28.2c7.8,0,14.2-6.4,14.2-14.2V23.3l4.4,4.4
+						c1.6,1.6,4.1,1.9,5.9,0.7C107.7,26.7,108,23.3,106,21.3z"/>
+				</defs>
+				<clipPath id="XMLID_47_">
+					<use xlink:href="#XMLID_1225_"  overflow="visible"/>
+				</clipPath>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="33" y="7.1" width="100.6" height="102.5">
+						
+							<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+						<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+						<feBlend  in="source" in2="back" mode="normal"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="33" y="7.1" width="100.6" height="102.5" id="XMLID_48_">
+					<g id="XMLID_5096_" filter="url(#Adobe_OpacityMaskFilter)">
+						<circle id="XMLID_5516_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5515_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5514_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5513_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5512_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5511_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5510_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5509_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5508_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5507_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5506_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5505_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5504_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5503_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5502_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5501_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5500_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5499_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5498_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5497_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5496_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5495_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5494_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5493_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5492_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5491_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5490_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5489_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5488_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5487_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5486_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5485_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5474_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5473_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5472_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5471_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5470_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5469_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5468_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5467_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5466_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5465_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5464_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5463_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5462_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5461_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5460_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5459_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5458_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5457_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5456_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="25.5" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5455_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5454_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5453_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5452_" clip-path="url(#XMLID_47_)" fill="#C0D96E" cx="21.6" cy="12.9" r="1.1"/>
+						<circle id="XMLID_5451_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5450_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5449_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5448_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5447_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5446_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5445_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5444_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5443_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5442_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5441_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5440_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5439_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5438_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5437_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5436_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5435_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5434_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5433_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5432_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5431_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5430_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5429_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5428_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5427_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5426_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5425_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5424_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5423_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5422_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5421_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5420_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5419_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5418_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5417_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5416_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5415_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5414_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5413_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5412_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="25.5" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5411_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5410_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5409_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5408_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="49" r="1.1"/>
+						<circle id="XMLID_5407_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="49" r="1.1"/>
+						<circle id="XMLID_5406_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="49" r="1.1"/>
+						<circle id="XMLID_5405_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="49" r="1.1"/>
+						<circle id="XMLID_5404_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="49" r="1.1"/>
+						<circle id="XMLID_5403_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="49" r="1.1"/>
+						<circle id="XMLID_5402_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="49" r="1.1"/>
+						<circle id="XMLID_5401_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="49" r="1.1"/>
+						<circle id="XMLID_5400_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="49" r="1.1"/>
+						<circle id="XMLID_5399_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="49" r="1.1"/>
+						<circle id="XMLID_5398_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="49" r="1.1"/>
+						<circle id="XMLID_5397_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5396_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5395_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5394_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5393_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5392_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5391_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5390_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5389_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5388_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5387_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5386_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5385_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5384_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5383_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5382_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5381_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5380_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="25.5" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5379_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5378_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5377_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5376_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5375_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5374_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5373_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5372_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5369_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5368_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5366_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5365_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5364_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5363_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5362_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5361_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5360_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5359_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5358_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5357_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5356_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="49" r="1.1"/>
+						<circle id="XMLID_5355_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="49" r="1.1"/>
+						<circle id="XMLID_5354_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5353_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5352_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5351_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="10.5" r="1.1"/>
+						<circle id="XMLID_5350_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5349_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="0.9" r="1.1"/>
+						<circle id="XMLID_5347_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="20.1" r="1.1"/>
+						<circle id="XMLID_5346_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5345_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="29.8" r="1.1"/>
+						<circle id="XMLID_5344_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5343_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="39.4" r="1.1"/>
+						<circle id="XMLID_5342_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5341_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="49" r="1.1"/>
+						<circle id="XMLID_5340_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5339_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5338_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5337_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5336_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5335_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5334_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5333_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5332_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5331_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5330_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5329_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5328_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5327_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5326_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5325_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5324_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5323_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5322_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5321_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5320_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5319_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5318_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="25.5" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5317_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5316_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5315_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5314_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5313_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5312_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="58.5" r="1.1"/>
+						<circle id="XMLID_5311_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5310_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5309_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5308_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="68" r="1.1"/>
+						<circle id="XMLID_5307_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="68" r="1.1"/>
+						<circle id="XMLID_5306_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="68" r="1.1"/>
+						<circle id="XMLID_5305_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="68" r="1.1"/>
+						<circle id="XMLID_5304_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="68" r="1.1"/>
+						<circle id="XMLID_5303_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="68" r="1.1"/>
+						<circle id="XMLID_5302_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="68" r="1.1"/>
+						<circle id="XMLID_5301_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="68" r="1.1"/>
+						<circle id="XMLID_5300_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="68" r="1.1"/>
+						<circle id="XMLID_5299_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="68" r="1.1"/>
+						<circle id="XMLID_5298_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="68" r="1.1"/>
+						<circle id="XMLID_5297_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="31.8" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5296_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5295_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5294_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5293_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5292_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5291_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5290_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="25.5" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5289_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5288_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5287_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="68" r="1.1"/>
+						<circle id="XMLID_5286_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="68" r="1.1"/>
+						<circle id="XMLID_5285_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5284_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="68" r="1.1"/>
+						<circle id="XMLID_5283_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5282_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5281_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5280_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5279_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5278_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5277_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5276_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="29.1" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5275_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5274_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5273_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5272_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5271_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5270_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="77.5" r="1.1"/>
+						<circle id="XMLID_5269_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5268_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5267_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5266_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5265_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5264_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5263_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5262_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5261_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5260_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5259_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5258_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5257_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5256_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5255_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5254_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5253_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5252_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5251_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5250_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5249_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5248_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5247_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5246_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5245_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5244_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5243_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5242_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5241_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5240_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5239_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5238_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5237_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5236_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5235_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5234_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5233_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="87.1" r="1.1"/>
+						<circle id="XMLID_5232_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5231_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5230_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5229_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5228_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5227_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5226_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5225_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5224_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5223_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5222_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5221_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5220_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5219_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="38.2" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5218_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="50.9" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5217_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="63.6" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5216_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="57.3" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5215_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="70" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5214_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="89" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5213_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="76.3" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5212_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="82.7" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5211_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5210_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5209_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="103.3" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5208_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="96.6" r="1.1"/>
+						<circle id="XMLID_5207_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="35.5" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5206_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="41.8" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5205_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="54.5" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5204_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="67.2" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5203_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="60.9" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5202_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="73.6" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5201_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="92.6" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5200_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="79.9" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5199_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="86.3" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5198_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="48.2" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5197_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="106.9" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5196_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="100.5" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5195_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="114.8" cy="106.1" r="1.1"/>
+						<circle id="XMLID_5194_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="111.2" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5193_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="96.9" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5191_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="5.7" r="1.1"/>
+						<circle id="XMLID_5188_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="15.3" r="1.1"/>
+						<circle id="XMLID_5186_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="24.9" r="1.1"/>
+						<circle id="XMLID_5184_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="34.6" r="1.1"/>
+						<circle id="XMLID_5182_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="44.2" r="1.1"/>
+						<circle id="XMLID_5181_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="53.9" r="1.1"/>
+						<circle id="XMLID_5143_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="63.3" r="1.1"/>
+						<circle id="XMLID_5135_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="72.8" r="1.1"/>
+						<circle id="XMLID_5124_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="82.4" r="1.1"/>
+						<circle id="XMLID_5119_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="91.9" r="1.1"/>
+						<circle id="XMLID_5111_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="119.2" cy="101.4" r="1.1"/>
+						<circle id="XMLID_5097_" clip-path="url(#XMLID_47_)" fill="#FFFFFF" cx="44.6" cy="101.4" r="1.1"/>
+					</g>
+				</mask>
+				<polygon id="XMLID_1226_" clip-path="url(#XMLID_47_)" mask="url(#XMLID_48_)" fill="#E7464E" points="34.9,109.6 33,7.1 
+					133.7,7.1 133.7,107.8 				"/>
+			</g>
+		</g>
+		<g id="XMLID_1220_">
+			
+				<path id="XMLID_1221_" fill="none" stroke="#454B50" stroke-width="4.9271" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M104.3,17l-13-13c-1.8-1.8-4.6-1.8-6.4-0.1L70.7,17.5c-1.8,1.7-2.1,4.6-0.5,6.4c0.9,1.1,2.2,1.6,3.5,1.6c1.1,0,2.3-0.4,3.2-1.3
+				l5.1-4.8v26.9c0,3.1-2.5,5.6-5.6,5.6h-28c-7.8,0-14.2,6.4-14.2,14.2v32c0,2.7,1.9,5.2,4.5,5.8c3.7,0.7,6.9-2.1,6.9-5.6V68.9
+				c0-3,2.4-5.4,5.4-5.4h28.2c7.8,0,14.2-6.4,14.2-14.2V19l4.4,4.4c1.6,1.6,4.1,1.9,5.9,0.7C106.1,22.4,106.3,19,104.3,17z"/>
+		</g>
+		<rect id="_x3C_Slice_x3E__5_" x="1.6" y="-1" fill="none" width="132.8" height="121.3"/>
+	</g>
+</g>
+</svg>

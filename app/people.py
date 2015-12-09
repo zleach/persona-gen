@@ -2,138 +2,233 @@ import names
 import random
 import math
 import data
+import urllib
+import string
 
-from ships import *
-from astronomy import *
+import company as companies
+import experiment as experiments
 
-class Personallity(object):
-    def __init__(self,gender):
-        self.description = {
-            '1': data.parse('<personality.trait.neutral>'),
-            '2': data.parse('<personality.trait.positive>'),
-            '3': data.parse('<personality.trait.positive> and <personality.trait.neutral>'),
-            '4': data.parse('<personality.trait.positive> and <personality.trait.neutral> but <personality.trait.negitive>'),
-            '5': data.parse('<personality.trait.positive> but <personality.trait.negitive>')  
-        }[str(random.randint(1,5))];
-    
-    def __str__(self):
-      return self.description;
-        
+
 class Person(object):
-    def __init__(self):
-        # Gender
-        self.gender = self.gender()
-        self.genderTitle = self.genderTitle()
-        self.genderPronoun = self.genderPronoun()
-        self.genderPossessive = self.genderPossessive()
+  def __init__(self):
+    # Gender
+    self.gender = self.gender()
+    self.genderTitle = self.genderTitle()
+    self.genderPronoun = self.genderPronoun()
+    self.genderPossessive = self.genderPossessive()
 
-        # Basics
-        self.firstName = names.get_first_name(self.gender)
-        self.lastName = names.get_last_name()
-        self.personality = self.personality(self.gender)
-
-        # Appearance
-        self.eyecolor = data.pick('appearance.eyes.color')
-        self.skincolor = data.pick('appearance.skin.color')
-        self.hairtype = data.pick('appearance.hair.type')
-        self.haircolor = data.pick('appearance.hair.color')
-        self.hairstyle = data.pick('appearance.hair.style.'+self.gender)
-        self.height = data.pick('appearance.height')
-        self.build = data.pick('appearance.build.'+self.gender)
-        
-        # Other
-        self.minimumAge = 18
-        self.previousService = self.previousService()
-        self.birthPlace = data.pick('places.birthplaces')
-
-    def previousService(self):
-        # Only about 5% of people have previous service.
-        if(random.randint(0,100) > 94):
-            designation = data.pick('ship.type')['designation']
-            return names.get_ship_name() + "(" + designation + "-" + str(random.randint(0,127)) +")" 
-        else:
-            return False
-        
-    def rank(self,grade):
-        return Rank(grade)      
-    
-    def personality(self,gender):
-        return Personallity(gender)
-    
-    def gender(self):
-        if(random.randint(0,99) > 50):
-            return 'female'
-        else:
-            return 'male'
-
-    def genderTitle(self):
-        if(self.gender == 'male'): return 'he'
-        if(self.gender == 'female'): return 'she'
-
-    def genderPossessive(self):
-        if(self.gender == 'male'): return 'his'
-        if(self.gender == 'female'): return 'her'
-
-    def genderPronoun(self):
-        if(self.gender == 'male'): return 'man'
-        if(self.gender == 'female'): return 'woman'
-    
-    def __str__(self):
-        return '%s %s' % (self.firstName,self.lastName)
+    # Basics
+    self.firstName = names.get_first_name(self.gender)
+    self.lastName = names.get_last_name()
+    self.wearsGlasses = data.chance(40)
+    if self.gender == 'male':
+      self.bodyType = data.pick('male.body_type')
+    else:
+      self.bodyType = data.pick('female.body_type')
       
-class Officer(Person):
-    def __init__(self):
-        Person.__init__(self)
-        self.rank = self.rank('officer');
-        self.age = '%g' % round(random.randint(22,40)*(self.rank.order*.10)+0,0);
+    self.avatar = Avatar(self)
+    self.fullName = '%s %s' % (self.firstName,self.lastName)
+  
+    # Company
+    self.company = companies.Company()  
+  
+    # Skills
+    self.skills = []
+  
+  def calculateSkillValue(self):
+    self.skillValue = 0
+    for skill in self.skills:
+      self.skillValue = self.skillValue + skill.level
+  
+  def gender(self):
+    if(random.randint(0,99) > 50):
+      return 'female'
+    else:
+      return 'male'
 
-class Enlisted(Person):
-    def __init__(self):
-        Person.__init__(self)
-        self.rank = self.rank('enlisted');
-        self.age = '%g' % round(random.randint(22,30)*(self.rank.order*.10)+13,0);
-        if(self.age <= self.minimumAge): self.age = self.minimumAge;
+  def genderTitle(self):
+    if(self.gender == 'male'): return 'he'
+    if(self.gender == 'female'): return 'she'
+
+  def genderPossessive(self):
+    if(self.gender == 'male'): return 'his'
+    if(self.gender == 'female'): return 'her'
+
+  def genderPronoun(self):
+    if(self.gender == 'male'): return 'man'
+    if(self.gender == 'female'): return 'woman'
+  
+  def __str__(self):
+    return self.fullName
+
+class Skill(object):
+  def __init__(self,name,minLevel,maxLevel):
+    self.name = name
+    
+    icons = {
+      'Coding' : 'code',
+      'Reading Results' : 'line-chart',
+      'Combining Data' : 'lightbulb-o',
+      'Creativity + Communication' : 'paint-brush',
+    }
+    
+    self.icon = icons[self.name]
+    
+    self.level = random.randint(minLevel/20,maxLevel/20)
+    if self.level < 0:
+      self.level = 0
+    if self.level > 5:
+      self.level = 5
+    
+class Avatar(object):  
+  def __init__(self,person):
+    self.backgroundColor = data.pick('color.background')
+    self.pose = data.pick('unisex.pose')
+    self.sex = 'unknown'
+    self.height = data.pick('unisex.height')
+    self.colorData = {
+      'hair_color' : data.pick('hair.color'),
+      'skin_tone' : data.pick('skin.tone'),
+    }
+    self.urlTemplate = 'https://da8lb468m8h1w.cloudfront.net//render/{pose}/{model}-v1.png?colours={colours}&pd2={pd2}&body={body}&cropped=%22body%22&proportion=0&sex={sex}&outfit={outfit}&crop_width=300&crop_height=240&style=1'
+    self.colorTemplate = '{{%20%22ffcc99%22:%20{skin_tone}%20,%22{hair_color}}}'
+    self.colours = self.colorTemplate.format(**self.colorData)
+    self.pd2 = '{{{hair},%20%22jaw%22:%20%22{jaw}%22,{beard_stash},%20%22brow_L%22:%20%22{brow}%22,%20%22brow_R%22:%20%22{brow}%22,%20%22eye_L%22:%20%22{eye}%22,%20%22eye_R%22:%20%22{eye}%22,%20%22eyelines_L%22:%20%22eye_n3%22,%20%22eyelines_R%22:%20%22eye_n3%22,%20%22eyelid_L%22:%20%22eyelid_n1_3%22,%20%22eyelid_R%22:%20%22eyelid_n1_3%22,%20%22eyelash_L%22:%20%22{eyelash}%22,%20%22eyelash_R%22:%20%22{eyelash}%22,%20%22pupil_L%22:%20%22{pupil}%22,%20%22pupil_R%22:%20%22{pupil}%22,%20%22nose%22:%20%22{nose}%22,{mouth_tongue},%20%22ear_L%22:%20%22{ear}%22,%20%22ear_R%22:%20%22{ear}%22,%20%22detail_E_L%22:%20%22detail_E_n2%22,%20%22detail_E_R%22:%20%22detail_E_n2%22,%20%22detail_L%22:%20%22_blank%22,%20%22detail_R%22:%20%22_blank%22,%20%22detail_T%22:%20%22_blank%22,%20%22glasses%22:%20%22{glasses}%22%20}}'
+
+    if person.gender == 'male':
+      # Male
+      self.body = '{%20%22body_height%22:%20'+self.height+',%20%22body_type%22:%20'+person.bodyType+'%20}'
+      self.sex = '1'
+      self.model = '120449915_1_s1'
+      self.outfit = data.pick('outfits.male')
+      self.glasses = data.pick('male.glasses')
+      self.hair = data.pick('male.hair')
+      self.pd2Data = {
+        'hair' : self.hair,
+        'nose' : data.pick('male.nose'),
+        'ear' : data.pick('male.ear'),
+        'eye' : data.pick('male.eye'),
+        'eyelash' : 'eyelash_blank',
+        'beard_stash' : data.pick('male.beard_stash'),
+        'jaw' : data.pick('male.jaw'),
+        'pupil' : data.pick('male.pupil'),
+        'mouth_tongue' : data.pick('male.mouth_tongue'),
+        'brow' : data.pick('male.brow'),
+        'glasses' : 'glasses_blank',
+      }    
+      if person.wearsGlasses:
+        self.pd2Data['glasses'] = self.glasses
       
-class Pilot(Officer):
-    def __init__(self):
-        Officer.__init__(self);
-        self.callsign = self.callsign();
-        self.age = '%g' % round(random.randint(15,25)*(self.rank.order*.10),0);
+    else:
+      # Female
+      self.breast_type = data.pick('female.breast_type')
+      self.body = '{%20%22body_height%22:%20'+self.height+',%20%22body_type%22:%20'+person.bodyType+'%20,%22breast_type%22:'+self.breast_type+'}'
+      self.sex = '2'
+      self.model = '108768741_1_s1'
+      self.outfit = data.pick('outfits.female')
+      self.glasses = data.pick('female.glasses')
+      self.hair = data.pick('female.hair')    
+      self.pd2Data = {
+        'hair' : self.hair,
+        'nose' : data.pick('male.nose'),
+        'ear' : data.pick('male.ear'),
+        'eye' : data.pick('male.eye'),
+        'eyelash' : data.pick('female.eyelash'),
+        'beard_stash': '%20%22beard%22:%20%22beard_blank%22,%20%22stachin%22:%20%22stachin_blank%22,%20%22stachout%22:%20%22stachout_blank%22',
+        'jaw' : data.pick('male.jaw'),
+        'pupil' : data.pick('male.pupil'),
+        'mouth_tongue' : data.pick('male.mouth_tongue'),
+        'brow' : data.pick('male.brow'),
+        'glasses' : 'glasses_blank',
+      }    
+      if person.wearsGlasses:
+        self.pd2Data['glasses'] = self.glasses
+    
+    d = {
+      'model' : self.model,
+      'sex' : self.sex,
+      'pose' : self.pose,
+      'outfit' : self.outfit,
+      'colours': self.colours,
+      'pd2' : self.pd2.format(**self.pd2Data),
+      'body' : self.body
+     }
 
-    def callsign(self):
-        return names.get_nick_name()
-
-    def __str__(self):
-        return '%s "%s" %s' % (self.firstName,self.callsign,self.lastName)
-
-class HighRankOfficer(Officer):
-    def __init__(self):
-        Person.__init__(self);
-        self.rank = self.rank('high ranking officer');
-        self.age = '%g' % round(random.randint(20,30)*(self.rank.order*.10)+13,0);
-
-class Commander(Officer):
-    def __init__(self):
-        Person.__init__(self);
-        self.rank = self.rank('commander');
-        self.age = '%g' % round(random.randint(20,30)*(self.rank.order*.10)+13,0);
-
-class Marine(Enlisted):
-    def __init__(self):
-        Person.__init__(self);
-        self.rank = self.rank('marine');
-        self.age = '%g' % round(random.randint(20,40)*(self.rank.order*.10)+14,0);
+    self.url =  self.urlTemplate.format(**d)
+    self.faceUrl = self.url.replace('cropped=%22body','cropped=%22head')
+    self.faceUrl = self.faceUrl.replace(self.pose,'6688424')
       
-class Rank(object):
-    def __init__(self,grade):
-        rank = data.roll(data.ranks[grade])
-        self.abbrivation = rank['abbrivation']
-        self.title = rank['title']
-        self.designation = rank['designation']
-        self.order = int(rank['designation'][2])
+  def __str__(self):
+    return self.url;
 
-        if rank['designation'][0] == 'O':
-            self.order = self.order + 10
+class LoneWolf(Person):
+  def __init__(self):
+    Person.__init__(self)
+    self.archetype = 'Lone Wolf'
+    self.image = 'wolf.svg'
 
-    def __str__(self):
-        return self.abbrivation
+    balance = 0
+    self.title = data.pick('company.title.marketing')
+    self.skills.append(Skill('Coding'       ,40-balance,90-balance))
+    self.skills.append(Skill('Reading Results',60-balance,90-balance))
+    self.skills.append(Skill('Combining Data' , 0-balance,40-balance))
+    self.skills.append(Skill('Creativity + Communication'  ,40-balance,80-balance))
+    self.calculateSkillValue();
+   
+class Strategist(Person):
+  def __init__(self):
+    Person.__init__(self)
+    self.archetype = 'Strategist'
+    self.image = 'strategist.svg'
+
+    balance = 0
+    self.title = data.pick('company.title.strategist')
+    self.skills.append(Skill('Coding'       ,0-balance,50-balance))
+    self.skills.append(Skill('Reading Results',0-balance,90-balance))
+    self.skills.append(Skill('Combining Data' ,0-balance,40-balance))
+    self.skills.append(Skill('Creativity + Communication'     ,70-balance,100-balance))
+    self.calculateSkillValue();
+
+class Implementer(Person):
+  def __init__(self):
+    Person.__init__(self)
+    self.archetype = 'Implementer'
+    self.image = 'implementer.svg'
+    
+    balance = 10
+    self.title = data.pick('company.title.developer')
+    self.skills.append(Skill('Coding', 40-balance,100-balance))
+    self.skills.append(Skill('Reading Results',30-balance,60-balance))
+    self.skills.append(Skill('Combining Data' ,0-balance,30-balance))
+    self.skills.append(Skill('Creativity + Communication'     ,30-balance,50-balance))
+    self.calculateSkillValue();
+
+class Developer(Person):
+  def __init__(self):
+    Person.__init__(self)
+    self.archetype = 'Developer'
+    self.image = 'developer.svg'
+
+    balance = 10
+    self.title = data.pick('company.title.developer')
+    self.skills.append(Skill('Coding'       ,90-balance,100-balance))
+    self.skills.append(Skill('Reading Results',0-balance,30-balance))
+    self.skills.append(Skill('Combining Data' ,0-balance,30-balance))
+    self.skills.append(Skill('Creativity + Communication'     ,0-balance,30-balance))
+    self.calculateSkillValue();
+
+class Analyst(Person):
+  def __init__(self):
+    Person.__init__(self)
+    self.archetype = 'Analyst'
+    self.image = 'analyst.svg'
+    
+    balance = 20
+    self.title = data.pick('company.title.analyst')
+    self.skills.append(Skill('Coding'       ,30-balance,60-balance))
+    self.skills.append(Skill('Reading Results',90-balance,100-balance))
+    self.skills.append(Skill('Combining Data' ,90-balance,100-balance))
+    self.skills.append(Skill('Creativity + Communication'     ,20-balance,50-balance))
+    self.calculateSkillValue();
+
+

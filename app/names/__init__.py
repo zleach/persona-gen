@@ -53,7 +53,7 @@ def get_ship_name():
         line = aline
       return line
 
-def get_planet_name():
+def get_company_name():
     filename = FILES['planet:name']
     with open(filename) as name_file:
       line = next(name_file)

@@ -1,14 +1,292 @@
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 300;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-light.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-light.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 300;
+  font-style: italic;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-lightit.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-lightit.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 400;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-reg.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-reg.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 400;
+  font-style: italic;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-regit.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-regit.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 500;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-medium.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 500;
+  font-style: italic;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-mediumit.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-mediumit.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 600;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-sbold.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-sbold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 600;
+  font-style: italic;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-sboldit.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-sboldit.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 700;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-bold.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 700;
+  font-style: italic;
+  src: url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-boldit.woff2") format("woff2"), url("//dhm5hy2vn8l0l.cloudfront.net/proxima/proximanova-boldit.woff") format("woff"); }
 body {
     color: #333;
+    padding: 0px;
+    font-family: 'Proxima';
+    font-size: 9pt;
+    -webkit-print-color-adjust:exact;
+    width: 8in;
 }
-h5 {
+
+* {
+    -webkit-print-color-adjust:exact !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Proxima';
+  margin:0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 14pt;
+}
+h4 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 11pt;
+}
+.card {
+  background-color: #F3F3F3 !important;;
+  border-radius: 0px;
+  margin-right: .25in;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: .5in;
+  overflow: hidden;
+  width: 2.25in;
+  position: relative;
+  height: 3.5in;
+  -webkit-print-color-adjust: exact;   
+}
+hr {
+  border-color: #DDD;
+}
+.card .face {
+    vertical-align: middle;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 100px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 6px solid #FFF;
+    margin-top: 25px;
+    position: absolute;
+    margin-top: -45px;
+    right: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,.1);
+}
+.card .avatar {
+  height: 140px;
+  background-repeat: no-repeat;
+  -webkit-print-color-adjust:exact;
+}
+.card-top {
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  border-bottom: none;
+  box-shadow: 0px 0px 150px rgba(0,0,0,.13) inset;
+}
+.experiment .card-top {
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  border-bottom: none;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-print-color-adjust: exact;
+
+}
+.card-bottom {
+  padding: 15px;
+}
+.card .archetype {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    padding-top: 8px;
+    background: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 95%;
-    font-weight: 600;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    font-size: 11px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
 }
-table.characteristics td {
-    font-size: 90%;
+.card.experiment .archetype {
+    background: rgba(0, 0, 0, 0.1);
+}
+.card.experiment h3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card .person-name {
+}
+.card .person-title {
+}
+.card .title {
+  margin-top: 20px;
+}
+.card .skills {
+  padding: 0px;
+  padding-top: 15px;
+  list-style: none;
+}
+.card .level {
+  position: relative;
+}
+
+.card .level > div{
+  display: inline-block;
+  width: 19.3%;
+  height: 10px;
+  background-color: #CCC !important;
+  margin: 0px;
+  padding: 0px; 
+  margin-right: 1px;
+  border-radius: 1px;
+}
+.card .level > div.dot{
+    /* top: 10px; */
+    height: 16px;
+    padding: 0px;
+    line-height: 17px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #0081ba;
+    font-weight: 900;
+    border-radius: 777px;
+    color: white;
+    /* float: left; */
+    width: 26px;
+    margin-bottom: 5px;
+}
+.card .level.no-skill{
+  opacity: .33;
+}
+.card .skill-name {
+  position: relative;
+  top: -1px;
+  left: 5px;
+}
+
+.card .level > div.filled{
+  background-color: orange !important;
+}
+
+.card .level.row-1 > div.filled {
+  background-color: #fd6b58 !important;
+}
+.card .level.row-2 > div.filled {
+  background-color: #97c709 !important;
+}
+.card .level.row-3 > div.filled {
+  background-color: #f4b852 !important;
+}
+.card .level.row-4 > div.filled {
+  background-color: #67b4d6 !important;
+}
+.card .level.row-5 > div.filled {
+  background-color: #99b3be !important;
+}
+.card .level.row-6 > div.filled {
+  background-color: #e8464e !important;
+}
+.card .level.row-7 > div.filled {
+  background-color: #fd6b58 !important;
+}
+
+.card .level-amount {
+  float: right;
+  opacity: 0;
+}
+
+.card .skill-value {
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    line-height: 31px;
+    font-size: 21px;
+    text-align: center;
+    background-color: #0081ba;
+    font-weight: 900;
+    position: absolute;
+    left: 15px;
+    border-radius: 777px;
+    -webkit-print-color-adjust: exact;
+}
+.card small {
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+  margin-right: 1px;
+}
+.card .person-skill-value {
+  border: 2px solid white;
+  width: 46px;
+  height: 32px;
+  line-height: 30px;
+}
+.card .experiment-value {
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    line-height: 31px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #97c709;
+    font-weight: 900;
+    border-radius: 777px;
+    width: 46px;
+    height: 26px;
+    line-height: 27px;
+}
+
+
+@media print {
+  .card {
+    margin: 0px;
+    margin-bottom: 2px;
+  }
 }

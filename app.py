@@ -2,7 +2,8 @@ import os
 from flask import Flask, render_template, send_from_directory
 from flask import request, url_for
 
-from app import ships
+from app import people
+from app import experiment as experiment
 
 # initialization
 app = Flask(__name__)
@@ -12,36 +13,20 @@ app.config.update(
 
 @app.route('/')
 def content():
+    peopleList = []
+    experimentList = []
 
+    for x in range(0, 20):
+      experimentList.append(experiment.Experiment())
 
-    if request.args.get('prefix'):
-        prefix = request.args.get('prefix');
-    else:
-        prefix = "USS"
-
-    if request.args.get('type'):
-        shipType = int(request.args.get('type'))
-    else:
-        shipType = 0
-
-    if request.args.get('genderMix'):
-        genderMix = int(request.args.get('genderMix'))
-    else:
-        genderMix = 50
-
-    defaultCrewSize = .25
-    if request.args.get('crewSize'):
-        crewSize = float(request.args.get('crewSize'))/4
-        if crewSize > 5:
-            crewSize = defaultCrewSize
-    else:
-        crewSize = defaultCrewSize
-    
+    for x in range(0, 5):
+      peopleList.append(people.Strategist())
+      peopleList.append(people.LoneWolf())
+      peopleList.append(people.Implementer())
+      peopleList.append(people.Developer())
+      peopleList.append(people.Analyst())
       
-    ship = ships.Ship(prefix,shipType,crewSize)
-    types = ships.ship['type']
-
-    return render_template('base.tpl', types=types,ship=ship,request=request,prefix=prefix,shipType=shipType,genderMix=genderMix,crewSize=crewSize)
+    return render_template('base.tpl', people=peopleList, experiments=experimentList)
 
 # launch
 if __name__ == "__main__":
