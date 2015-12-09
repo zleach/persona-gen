@@ -6,7 +6,7 @@ Installing Heroku Toolbelt
 Go here to install the toolbelt first. https://toolbelt.heroku.com/
 
 
-Running
+Setup
 ------------
 
 First, you'll need to clone the repo.
