@@ -12,7 +12,7 @@ Setup
 First, you'll need to clone the repo.
 
     $ git https://github.com/zleach/persona-gen.git
-    $ cd Persona Gen
+    $ cd persona-gen
 
 Now, you can setup an isolated environment with `virtualenv`.
 
