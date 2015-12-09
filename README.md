@@ -1,16 +1,18 @@
-Tradewind
+Persona Gen
 ============
-A sci-fi / future ship's company generator.
 
-Live demo here: http://tradewind-mvii.herokuapp.com/
+Installing Heroku Toolbelt
+------------
+Go here to install the toolbelt first. https://toolbelt.heroku.com/
+
 
 Running
 ------------
 
 First, you'll need to clone the repo.
 
-    $ git https://github.com/zleach/tradewind.git
-    $ cd tradewind
+    $ git https://github.com/zleach/persona-gen.git
+    $ cd Persona Gen
 
 Now, you can setup an isolated environment with `virtualenv`.
 
@@ -21,14 +23,14 @@ We'll need to install the dependencies, with `pip`.
     
     $ pip install -r requirements.txt 
         
-Running Tradewind
+Running Persona Gen
 ------------------------
 
 Now, you can run the application locally with foreman.
 
     $ foreman start
 
-Finally, once it's running you can load tradewind in your browser.
+Finally, once it's running you can load Persona Gen in your browser.
 
     0.0.0.0:5000
     (Stop the server by pressing ctrl-c)
